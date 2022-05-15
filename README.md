@@ -73,7 +73,7 @@
         - **username**: String
         - **password**: String
         - **active**: Boolean
-        - **roles**: List<AppRole>
+        - **roles**: List of <i>**Role**</i>
     <br>
     <img src="screenshoots/AppUser.png">
     <br>
