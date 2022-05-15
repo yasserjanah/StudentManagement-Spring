@@ -73,11 +73,19 @@
 
 - Using **UserDetails** Strategy:
   #### 6.1 Entities:
-  - **AppUser**: - **userId**: String (primary key) - **username**: String - **password**: String - **active**: Boolean - **roles**: List of <i>**Role**</i>
+  - **AppUser**: 
+    - **userId**: String (primary key)
+    - **username**: String
+    - **password**: String
+    - **active**: Boolean
+    - **roles**: List of <i>**Role**</i>
     <br>
     <img src="screenshoots/AppUser.png">
     <br>
-  - **AppRole**: - **roleId**: Long (primary key) - **roleName**: String - **description**: String
+  - **AppRole**:
+    - **roleId**: Long (primary key)
+    - **roleName**: String
+    - **description**: String
     <br>
     <img src="screenshoots/AppRole.png">
     <br>
