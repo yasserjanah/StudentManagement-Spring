@@ -1,6 +1,6 @@
 ## Students Management using Spring Framework
 
-##### 1. Create a new Spring Boot project
+### 1. Create a new Spring Boot project
 
 - Use the following command to create a new Spring Boot project<br>
     ```
@@ -9,7 +9,7 @@
 - Using Graphical Interface:<br>
 <img src="screenshoots/init-project.png">
 
-##### 2. Entities:
+### 2. Entities:
 
 - **Student**:
     - **id**: String (primary key)
@@ -25,11 +25,11 @@
 - **GenderType**:
 <img src="screenshoots/GenderType.png" alt="GenderType Enum">
 
-##### 3. Repositories:
+### 3. Repositories:
 - **StudentRepository**:
 <img src="screenshoots/StudentRepository.png" alt="Student Repository">
 
-##### 4. Services:
+### 4. Services:
 - **IStudentService**:
     <br>
     <img src="screenshoots/IStudentService.png">
@@ -39,7 +39,7 @@
     <img src="screenshoots/StudentServiceImpl.png">
     <br>
 
-##### 5. Controllers:
+### 5. Controllers:
 - **StudentController**:
     <br>
     <img src="screenshoots/StudentController.png">
@@ -47,7 +47,7 @@
     <img src="screenshoots/StudentController-suite-2.png">
     <br>
 
-##### 6. Templates:
+### 6. Templates:
 - **baseTemplate.html**:
     <br>
     <img src="screenshoots/baseTemplate.png">
@@ -65,9 +65,9 @@
     <img src="screenshoots/templates.png">
     <br>
 
-##### 6. Spring Security:
+### 6. Spring Security:
 - Using **UserDetails** Strategy:
-    ##### 6.1 Entities:
+    #### 6.1 Entities:
     - **AppUser**:
         - **userId**: String (primary key)
         - **username**: String
@@ -76,6 +76,7 @@
         - **roles**: List<AppRole>
     <br>
     <img src="screenshoots/AppUser.png">
+    <br>
     - **AppRole**:
         - **roleId**: Long (primary key)
         - **roleName**: String
@@ -83,7 +84,7 @@
     <br>
     <img src="screenshoots/AppRole.png">
     <br>
-    ##### 6.2 Repositories:
+    #### 6.2 Repositories:
     - **AppUserRepository**:
           <br>
           <img src="screenshoots/AppUserRepository.png">
@@ -92,7 +93,7 @@
           <br>
           <img src="screenshoots/AppRoleRepository.png">
           <br>
-    ##### 6.3 Services:
+    #### 6.3 Services:
     - **ISecurityService**:
           <br>
           <img src="screenshoots/ISecurityService.png">
@@ -101,12 +102,12 @@
           <br>
           <img src="screenshoots/SecurityServiceImpl.png">
           <br>
-    ##### 6.4 UserDetailsService:
+    #### 6.4 UserDetailsService:
     - **UserDetailsServiceImpl**:
           <br>
           <img src="screenshoots/UserDetailsServiceImpl.png">
           <br>
-    ##### 6.5 SecurityConfig:
+    #### 6.5 SecurityConfig:
     - **Enabling Method Security**:
         <br>
         <img src="screenshoots/method-security.png">
@@ -121,7 +122,7 @@
       <img src="screenshoots/Security-config.png">
       <br>
 
-##### 7. Spring Application:
+### 7. Spring Application:
 - **application.properties**:
     <br>
     <img src="screenshoots/application.properties.png">
@@ -135,7 +136,7 @@
     <img src="screenshoots/database.png">
     <br>
 
-##### 8. Other Functionalities:
+### 8. Other Functionalities:
 - custom **Exception Handler**:
     <br>
     <img src="screenshoots/ExceptionHandler.png">
@@ -155,7 +156,7 @@
     <img src="screenshoots/login_logout_config.png">
     <br>
 
-##### 9. Screenshots:
+### 9. Screenshots:
 <img src="screenshoots/Screenshot-1.png" alt="Home">
 <br>
 <img src="screenshoots/Screenshoot-2.png" alt="Search">
